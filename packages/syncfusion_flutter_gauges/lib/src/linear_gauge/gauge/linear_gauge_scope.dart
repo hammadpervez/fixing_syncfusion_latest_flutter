@@ -38,8 +38,8 @@ class LinearGaugeScope extends InheritedWidget {
     final InheritedWidget widget = context
         .getElementForInheritedWidgetOfExactType<LinearGaugeScope>()!
         .widget;
-
-    if (widget is LinearGaugeScope) {
+// LinearGaugeScope
+    if (widget is Widget ) {
       scope = widget;
     }
 
